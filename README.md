@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Liberet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Liberet front-end challenge
 
-## Available Scripts
+The main goal for this challenge was to build an user interface similar to this mockup (spoiler, it is :D) :  
 
-In the project directory, you can run:
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled.png?raw=true)
 
-### `npm start`
+The requirements were:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The location input has to show an alert.
+- You can select the day by pressing it.
+- The listed meals by default are the “Beef” category on [TheMealDB.com](http://TheMealDB.com) (`https://www.themealdb.com/api/json/v1/1/filter.php?c=Beef`)
+- Meal details:
+    - Name: strMeal value from `https://www.themealdb.com/api/json/v1/1/filter.php?c=Beef`
+    - Meal location: srtArea value from `[https://www.themealdb.com/api/json/v1/1/lookup.php?i=52968](https://www.themealdb.com/api/json/v1/1/lookup.php?i=52968)` using the id provided from the previous endpoint.
+    - Price: idMeal value on mexican pesos using currency format (currency: MXN, zone: es-MX )
+    - Top tags: Only the first tag on “strTags” from the lookup endpoint.
+- By clicking on the time options this are the only available:
+    
+    ![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%201.png?raw=true)
+    
+    - 11:00 am - 12:00 am
+    - 1:00 pm - 2:00 pm
+    - 2:00 pm - 3:00 pm
+- By clicking on the kitchen options it should load the categories from this endpoint `https://www.themealdb.com/api/json/v1/1/categories.php`
+    
+    ![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%202.png?raw=true)
+    
+    - The default value its “Beef”
+    - Fetch the meals on the main view if a different category its selected
+- The “+1 Platillos” button shows an alert.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Extra points if...
 
-### `npm test`
+- The bottom nav bar buttons show a different view.
+- The icon’s color is yellow if the view is selected.
+- The profile view shows:
+    - Selected day.
+    - Selected shipping hour.
+    - Selected category.
+    - If none its selected it should show the default values.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Final results.
 
-### `npm run build`
+## Main view
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%203.png?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Time options
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%204.png?raw=true)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Categories
 
-## Learn More
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%205.png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## First alert
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%206.png?raw=true)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Second alert
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%207.png?raw=true)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Day selection
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%208.png?raw=true)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Shopping cart view
+
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%209.png?raw=true)
+
+---
+
+---
+
+## Different options selected (day, time, menu)
+
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%2010.png?raw=true)
+
+---
+
+---
+
+## Profile view with selected preferences
+
+![Untitled](https://github.com/RxmvnLD/liberet-challenge/blob/main/untitled%2011.png?raw=true)
