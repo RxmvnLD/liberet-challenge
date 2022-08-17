@@ -18,14 +18,14 @@ The requirements were:
     - Top tags: Only the first tag on “strTags” from the lookup endpoint.
 - By clicking on the time options this are the only available:
     
-    ![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%201.png?raw=true)
+    ![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%201.png?raw=true)
     
     - 11:00 am - 12:00 am
     - 1:00 pm - 2:00 pm
     - 2:00 pm - 3:00 pm
 - By clicking on the kitchen options it should load the categories from this endpoint `https://www.themealdb.com/api/json/v1/1/categories.php`
     
-    ![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%202.png?raw=true)
+    ![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%202.png?raw=true)
     
     - The default value its “Beef”
     - Fetch the meals on the main view if a different category its selected
@@ -45,7 +45,7 @@ The requirements were:
 
 ## Main view
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%203.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%203.png?raw=true)
 
 ---
 
@@ -53,7 +53,7 @@ The requirements were:
 
 ## Time options
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%204.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%204.png?raw=true)
 
 ---
 
@@ -61,7 +61,7 @@ The requirements were:
 
 ## Categories
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%205.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%205.png?raw=true)
 
 ---
 
@@ -69,7 +69,7 @@ The requirements were:
 
 ## First alert
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%206.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%206.png?raw=true)
 
 ---
 
@@ -77,7 +77,7 @@ The requirements were:
 
 ## Second alert
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%207.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%207.png?raw=true)
 
 ---
 
@@ -85,7 +85,7 @@ The requirements were:
 
 ## Day selection
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%208.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%208.png?raw=true)
 
 ---
 
@@ -93,7 +93,7 @@ The requirements were:
 
 ## Shopping cart view
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%209.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%209.png?raw=true)
 
 ---
 
@@ -101,7 +101,7 @@ The requirements were:
 
 ## Different options selected (day, time, menu)
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%2010.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%2010.png?raw=true)
 
 ---
 
@@ -109,4 +109,4 @@ The requirements were:
 
 ## Profile view with selected preferences
 
-![Untitled](https://github.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%2011.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/main/screenshots/Untitled%2011.png?raw=true)
