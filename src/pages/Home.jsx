@@ -28,7 +28,7 @@ const Home = () => {
         {loading ? (
           <Loader />
         ) : (
-          <div className="flex flex-wrap w-full h-full gap-2 mb-40 sm:mb-44 md:mb-10">
+          <div className="flex flex-wrap w-full h-full gap-1 mb-40 sm:mb-44 md:mb-10">
             {data &&
               data.map((meal) => {
                 return (
