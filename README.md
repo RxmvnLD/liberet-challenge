@@ -4,7 +4,7 @@
 
 The main goal for this challenge was to build an user interface similar to this mockup (spoiler, it is :D) :  
 
-![Untitled]([https://github.com](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/blob/main/screenshots/untitled.png?raw=true)
+![Untitled](https://raw.githubusercontent.com/RxmvnLD/liberet-challenge/blob/main/screenshots/untitled.png?raw=true)
 
 The requirements were:
 
