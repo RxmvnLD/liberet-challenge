@@ -1,0 +1,37 @@
+[
+    {
+      "abreviation": "Dom",
+      "day": "14",
+      "selected": false
+    },
+    {
+      "abreviation": "Lun",
+      "day": "15",
+      "selected": false
+    },
+    {
+      "abreviation": "Mar",
+      "day": "16",
+      "selected": false
+    },
+    {
+      "abreviation": "Mié",
+      "day": "17",
+      "selected": true
+    },
+    {
+      "abreviation": "Jue",
+      "day": "18",
+      "selected": false
+    },
+    {
+      "abreviation": "Vie",
+      "day": "19",
+      "selected": false
+    },
+    {
+      "abreviation": "Sáb",
+      "day": "20",
+      "selected": false
+    }
+  ]
